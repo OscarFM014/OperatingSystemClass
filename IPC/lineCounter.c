@@ -12,7 +12,7 @@ int main(){
 		}	
 	}
 	
-	if(c != '\n'){
+	if(c != '\n' && totalLines > 0){
 		totalLines++;
 	}
 	
