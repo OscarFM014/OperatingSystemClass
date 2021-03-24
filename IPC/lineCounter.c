@@ -12,6 +12,10 @@ int main(){
 		}	
 	}
 	
+	if(c != '\n'){
+		totalLines++;
+	}
+	
 	printf("Total lines:  %d\n", totalLines);
 	return 0;
 }
