@@ -32,7 +32,7 @@ main(void)
 		//Cuando corre sh todo sale normal y podemos entrar a ejecutar todo
 		//Cuando se cambia sh por ls se genera un bucle 
 		//infinito de ls o sea muestra los documentos una y otra vez y se ejecuta el mensaje de "STARTING JARVIS!"
-		//Cuando se cambia por no hay problema surge el mensaje modificado muchas veces mas init: exec sh failed\n
+		//Cuando se cambia por "no hay problema" surge el mensaje modificado muchas veces mas init: exec sh failed\n
 		//Cuando cambio todo de regreso funciona perfecto como en un principio
       exec("sh", argv);
       printf(1, "init: exec sh failed\n");
